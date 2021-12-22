@@ -1,0 +1,32 @@
+/**captcha**/
+input#defaultReal{
+  /*background: #1d82c5;
+  color: #fff;
+  width: 262px;
+  border-color: #1d82c5;*/
+  width: 262px;
+  margin: 0 auto;
+}
+.realperson-challenge {
+  display: block;
+  margin: 2px auto;
+  display: block;
+  width: 162px;
+}
+.realperson-text {
+  font-family: "Courier New",monospace;
+  font-size: 6px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 3px;
+}
+.realperson-regen {
+  color: #575757;
+  font-family: Latobold;
+  padding-top: 8px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Lato', 'arial', 'georgia', sans-serif;
+  
+}

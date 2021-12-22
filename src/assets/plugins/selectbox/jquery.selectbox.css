@@ -1,0 +1,106 @@
+@CHARSET"UTF-8";
+.sbHolder {
+    display: block;
+    padding: 0px 45px 0px 0px;
+    position: relative;
+    font-size: 14px;
+    border: solid 1px #bfbfbf;
+    text-decoration: none;
+    margin: 0 0 20px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sbHolder:hover {
+    /*border: solid 1px #0000cf;*/
+}
+.sbSelector {
+    display: block;
+    outline: none;
+    width: 100%;
+    overflow: hidden;
+    text-indent: 00px;
+    color: #777777;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none !important;
+    margin-bottom: 0;
+    padding: 10px 0 10px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sbSelector:hover, .sbSelector:focus {
+    /*color: #009d7e;*/
+}
+.sbToggle {
+    background: url(images/arrow.png) no-repeat center center;
+    display: block;
+    width: 46px;
+    height: 100%;
+    outline: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0px 0 0 0;
+    text-decoration: none;
+}
+.sbToggle:hover {} 
+.sbToggleOpen {} 
+.sbToggleOpen:hover {} 
+.sbHolderDisabled {
+    background-color: #3C3C3C;
+    border: solid 1px #706756;
+}
+.sbHolderDisabled .sbHolder {} 
+.sbHolderDisabled .sbToggle {} 
+.sbOptions {
+    list-style: none;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100% !important;
+    width: 100%;
+    /*overflow-y: auto !important;*/
+    outline: 1px solid #bfbfbf;
+    background: #ebebeb;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sbOptions li {
+    padding: 0 0px;
+    margin: 0 0;
+    list-style: none;
+    background: none;
+}
+.sbOptions li:first-child a {
+    border-top: 0 none;
+}
+.sbOptions a {
+    display: block;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    color: #777777;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 1px solid #bfbfbf;
+    margin: 0 0 0 0;
+}
+.sbOptions a:link, .sbOptions a:visited {
+    text-decoration: none;
+}
+.sbOptions a:hover, .sbOptions a:focus, .sbOptions a.sbFocus {
+    color: #000;
+}
+.sbOptions li.last a {
+    border-bottom: none;
+}
+.sbOptions .sbSub {
+    padding-left: 17px;
+}

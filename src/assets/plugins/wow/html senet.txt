@@ -1,0 +1,14 @@
+<div class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="2s">
+
+https://daneden.github.io/animate.css/
+
+if (!$('html').hasClass('ie8')) {
+       var wow = new WOW({
+           boxClass:     'wow',      // default
+           animateClass: 'animated', // default
+           offset:       0,          // default
+           obile:       true,       // default
+           live:         true        // default
+       });
+       wow.init();
+   }
